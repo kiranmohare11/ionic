@@ -7,8 +7,9 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  user:String="";
   constructor(public navCtrl: NavController) {
-
+    this.user = "Kiran";
   }
 
 }

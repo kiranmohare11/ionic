@@ -9,7 +9,10 @@ export class HomePage {
 
   user:String="";
   constructor(public navCtrl: NavController) {
-    this.user = "Kiran";
+    this.user = " Hi Kiran";    
   }
 
+  updateMyValue(){
+    this.user = "Hi Kiran u there...!";
+  }
 }
